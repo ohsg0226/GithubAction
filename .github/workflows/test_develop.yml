@@ -28,4 +28,4 @@ jobs:
       # Runs a single command using the runners shell
       - name: Start Xcode Project!!
         run: |
-          xcodebuild clean test -project GithubAction/GithubAction.xcodeproj -scheme GithubAction -destination 'platform=iOS Simulator,name=iPhone 11 Pro,OS=16.2'
+          xcodebuild clean test -project GithubAction/GithubAction.xcodeproj -scheme GithubAction -destination 'platform=iOS Simulator,name=iPhone 14 Pro,OS=latest'
